@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+/* common btn */
+.common-btn{
+    Background-color: #1D4ED8;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    width:100%;
+}
+.outline-btn{
+    Background-color: white;
+    color:#1D4ED8;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border: 1px solid #1D4ED8;
+    cursor: pointer;
+    width:100%;
+}
+.outline-btn-1{
+    Background-color: white;
+    color:#0D1B2A;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    border: 1px solid #0D1B2A;
+    cursor: pointer;
+    width:100%;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* navbar styling */
+
+.nav-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.nav-section ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.hero{
+
+    height:100vh;
+    background-image:url("./assets/banner.jpg");
+    background-size:cover;
+    background-position:center;
+}
+.overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.hero-content{
+    
+    color: white;
+    text-align: center;
+}
+.hero-content h2{
+    
+    font-size: 60px;
+    font-weight: bold;
+    padding-top: 150px;
+}
+
+.hero-content p {
+    padding-top: 15px;
+    max-width: 700px;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.hero-btn{
+    margin-top: 320px;
+}
+/* meet the speaker styling */
+
+.meet-the-Speakers-parent{
+    display: flex;
+    gap: 20px;
+}
+.meet-the-Speakers-root h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0;
+}
+
+.Speakers-card{
+margin-bottom: 25px;
+border: 1px solid #e5e7eb;
+border-radius: 10px;
+}
+.Speakers-card img{
+    border-radius: 8px 8px 0 0;
+}
+
+.Speakers-card h6,h4{
+    margin-left: 20px;
+    padding: 5px;
+
+}
+.Speakers-card p{
+    margin-bottom: 20px;
+    color: #575757
+}
+.Speakers-card h6{
+    color:#2563EB;
+}
+
+/* pricing card */
+
+.pricing{
+    width:90%;
+    max-width:1200px;
+    margin:80px auto;
+    text-align:center;
+}
+
+.pricing h2{
+    font-size:48px;
+    margin-bottom:10px;
+    color:#182437;
+}
+
+.sub{
+    color:gray;
+    margin-bottom:50px;
+}
+
+.card-parent{
+    display:flex;
+    gap:25px;
+    justify-content:center;
+}
+
+.card{
+    flex:1;
+    border:1px solid #ddd;
+    border-radius:12px;
+    padding:35px;
+    text-align:left;
+    background:#FFFFFF;
+}
+.card-1{
+    background:#F8F9FB;
+}
+
+.card h5{
+    color:#888888;
+    margin-bottom:10px;
+    letter-spacing:1px;
+}
+
+.card h2{
+    font-size:55px;
+    color:#182437;
+}
+
+.person{
+    color:#888888;
+    margin-bottom:20px;
+}
+
+.card hr{
+    border:none;
+    border-top:1px solid #e5e5e5;
+    margin-bottom:20px;
+}
+
+.card ul li::marker{
+    color: blue;
+}
+
+.card ul li{
+    margin:15px 0;
+    color:#444;
+}
+
+.dark{
+    background:#111f30;
+    color:white;
+}
+.dark h5{
+    color:#2563eb;
+}
+.dark h2{
+    color:white;
+}
+
+.dark .person{
+    color:#bfc7d1;
+}
+
+.dark hr{
+    border-top:1px solid #314154;
+}
+
+.dark ul li{
+    color:#e8edf3;
+}
+
+.dark button{
+    background:#2563eb;
+}
+/* footer Design */
+
+footer{
+    background-color: #122033;
+    padding: 35px 0;
+}
+.footer-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    color: #888888;
+}
+
+.footer-links a{
+    color: #888888;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+.footer-links a:hover{
+    color: white;
+}
