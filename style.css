@@ -16,6 +16,17 @@ img{
     font-size: 22px;
     border: none;
     cursor: pointer;
+    /* width:100%; */
+}
+.common-btn-1{
+    Background-color: #1D4ED8;
+    color:white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
     width:100%;
 }
 .outline-btn{
