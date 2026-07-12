@@ -8,6 +8,7 @@ img{
 }
 /* common btn */
 .common-btn{
+    font-size: Inter;
     Background-color: #1D4ED8;
     color:white;
     padding: 10px 20px;
@@ -19,11 +20,12 @@ img{
     /* width:100%; */
 }
 .common-btn-1{
+    font-size: Inter;
     Background-color: #1D4ED8;
     color:white;
     padding: 10px 20px;
     border-radius: 12px;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 22px;
     border: none;
     cursor: pointer;
@@ -125,12 +127,14 @@ border-radius: 10px;
     border-radius: 8px 8px 0 0;
 }
 
-.Speakers-card h6,h4,p{
+.Speakers-card h6,h4{
     margin-left: 20px;
     padding: 5px;
 
 }
 .Speakers-card p{
+    padding: 5px;
+    margin-left: 20px;
     margin-bottom: 20px;
     color: #575757
 }
@@ -203,13 +207,14 @@ border-radius: 10px;
 }
 
 .card ul li{
+    font-family: Inter;
     margin:15px 0;
     color:#444;
 }
 
 .dark{
     background:#111f30;
-    color:white;
+    color:#888888;
 }
 .dark h5{
     color:#2563eb;
@@ -219,7 +224,7 @@ border-radius: 10px;
 }
 
 .dark .person{
-    color:#bfc7d1;
+    color:#888888;
 }
 
 .dark hr{
@@ -227,17 +232,191 @@ border-radius: 10px;
 }
 
 .dark ul li{
-    color:#e8edf3;
+    font-family: Inter;
+    color:#FFFFFF;
 }
 
 .dark button{
     background:#2563eb;
 }
+
+/* Ai section */
+
+.bytesize {
+    background: white;
+    padding: 80px 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.bytesize-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.bytesize-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.bytesize-tag {
+    display: inline-block;
+    background: #ede9fe;
+    color: #7c3aed;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bytesize-header h2 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.bytesize-header p {
+    color: #6b7280;
+    font-size: 16px;
+    font-family:Inter;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.bytesize-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.code-window {
+    background: #0d1b2a;
+    border-radius: 15px;
+    font-family:Inter;
+    overflow: hidden;
+}
+
+.code-titlebar {
+    background: #16283c;
+    padding: 12px 18px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.dot-red {
+    background: red;
+}
+
+.dot-yellow {
+    background: gold;
+}
+
+.dot-green {
+    background: limegreen;
+}
+
+.code-filename {
+    color: #cccccc;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.code-body {
+    padding: 20px;
+    font-family: Inter, monospace;
+    font-size: 14px;
+    line-height: 1.8;
+    overflow-x: auto;
+    font-family:Inter;
+}
+
+.code-line {
+    display: block;
+    color: white;
+}
+
+/* Syntax Colors */
+.c-comment {
+    color: gray;
+    font-style: italic;
+}
+
+.c-kw {
+    color: violet;
+}
+
+.c-fn {
+    color: skyblue;
+}
+
+.c-str {
+    color: lightgreen;
+}
+
+.c-param {
+    color: orange;
+}
+
+.bytesize-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-card {
+    background: white;
+    border: 1px solid #dddddd;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.info-icon {
+    font-size: 24px;
+}
+
+.info-card h3 {
+    margin-bottom: 5px;
+    color: #111827;
+}
+
+.info-card p {
+    color: #6b7280;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.bytesize-btn {
+    display: block;
+    width: fit-content;
+    margin: auto;
+    background: #1d4ed8;
+    color: white;
+    text-decoration: none;
+    padding: 14px 30px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.bytesize-btn:hover {
+    background: #7c3aed;
+}
+
 /* footer Design */
 
 footer{
-    background:#0D1B2A;
-}
+    background:#0D1B2A;}
 footer hr{
     margin: 25px 0;
     border: none;
